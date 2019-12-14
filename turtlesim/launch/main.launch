@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<node pkg="turtlesim" type="turtlesim_node" name="gui" />
+	<node pkg="turtlesim" type="turtle_teleop_key" name="key" />
+</launch>
