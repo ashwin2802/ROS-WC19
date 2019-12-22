@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <rosparam file="$(find talker_listener)/config/params.yaml" />
+    <node pkg="talker_listener" type="talker_node" name="talker" output="screen"/>
+    <node pkg="talker_listener" type="listener_node" name="listener" output="screen"/>
+    <node pkg="talker_listener" type="client_node" name="client" output="screen"/>
+</launch>
