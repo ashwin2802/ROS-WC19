@@ -1,0 +1,10 @@
+sub_topic: /scan
+pub_topic: /min_dist
+rate: 20
+sub_queue: 1
+pub_queue: 1
+
+kP: 3
+kD: 5
+
+max_dist: 4
